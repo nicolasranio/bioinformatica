@@ -1,0 +1,1316 @@
+{
+  "titulo": "JuegoDelRibosoma",
+  "ancho": 800,
+  "alto": 600,
+  "tamaño": "800x600",
+  "nombre_de_la_escena_inicial": "Partida",
+  "imagenes": [],
+  "animaciones": [
+    {
+      "nombre": "explosion",
+      "cuadros": [
+        {
+          "nombre": "imagenes:explosion/explosion_001",
+          "sprite": "imagenes-explosion-explosion_001"
+        },
+        {
+          "nombre": "imagenes:explosion/explosion_002",
+          "sprite": "imagenes-explosion-explosion_002"
+        },
+        {
+          "nombre": "imagenes:explosion/explosion_003",
+          "sprite": "imagenes-explosion-explosion_003"
+        },
+        {
+          "nombre": "imagenes:explosion/explosion_004",
+          "sprite": "imagenes-explosion-explosion_004"
+        },
+        {
+          "nombre": "imagenes:explosion/explosion_005",
+          "sprite": "imagenes-explosion-explosion_005"
+        },
+        {
+          "nombre": "imagenes:explosion/explosion_006",
+          "sprite": "imagenes-explosion-explosion_006"
+        },
+        {
+          "nombre": "imagenes:explosion/explosion_007",
+          "sprite": "imagenes-explosion-explosion_007"
+        },
+        {
+          "nombre": "imagenes:explosion/explosion_008",
+          "sprite": "imagenes-explosion-explosion_008"
+        },
+        {
+          "nombre": "imagenes:explosion/explosion_009",
+          "sprite": "imagenes-explosion-explosion_009"
+        },
+        {
+          "nombre": "imagenes:explosion/explosion_010",
+          "sprite": "imagenes-explosion-explosion_010"
+        },
+        {
+          "nombre": "imagenes:explosion/explosion_011",
+          "sprite": "imagenes-explosion-explosion_011"
+        },
+        {
+          "nombre": "imagenes:explosion/explosion_012",
+          "sprite": "imagenes-explosion-explosion_012"
+        },
+        {
+          "nombre": "imagenes:explosion/explosion_013",
+          "sprite": "imagenes-explosion-explosion_013"
+        },
+        {
+          "nombre": "imagenes:explosion/explosion_014",
+          "sprite": "imagenes-explosion-explosion_014"
+        },
+        {
+          "nombre": "imagenes:explosion/explosion_015",
+          "sprite": "imagenes-explosion-explosion_015"
+        }
+      ],
+      "velocidad": "30"
+    },
+    {
+      "nombre": "mini_explosion",
+      "cuadros": [
+        {
+          "nombre": "imagenes:mini-explosion/explosion_0",
+          "sprite": "imagenes-mini-explosion-explosion_0"
+        },
+        {
+          "nombre": "imagenes:mini-explosion/explosion_1",
+          "sprite": "imagenes-mini-explosion-explosion_1"
+        },
+        {
+          "nombre": "imagenes:mini-explosion/explosion_2",
+          "sprite": "imagenes-mini-explosion-explosion_2"
+        },
+        {
+          "nombre": "imagenes:mini-explosion/explosion_3",
+          "sprite": "imagenes-mini-explosion-explosion_3"
+        },
+        {
+          "nombre": "imagenes:mini-explosion/explosion_4",
+          "sprite": "imagenes-mini-explosion-explosion_4"
+        },
+        {
+          "nombre": "imagenes:mini-explosion/explosion_5",
+          "sprite": "imagenes-mini-explosion-explosion_5"
+        },
+        {
+          "nombre": "imagenes:mini-explosion/explosion_6",
+          "sprite": "imagenes-mini-explosion-explosion_6"
+        }
+      ],
+      "velocidad": "20"
+    },
+    {
+      "nombre": "golpe",
+      "cuadros": [
+        {
+          "nombre": "imagenes:efectos/golpe-1",
+          "sprite": "imagenes-efectos-golpe-1"
+        },
+        {
+          "nombre": "imagenes:efectos/golpe-2",
+          "sprite": "imagenes-efectos-golpe-2"
+        },
+        {
+          "nombre": "imagenes:efectos/golpe-3",
+          "sprite": "imagenes-efectos-golpe-3"
+        },
+        {
+          "nombre": "imagenes:efectos/golpe-4",
+          "sprite": "imagenes-efectos-golpe-4"
+        },
+        {
+          "nombre": "imagenes:efectos/golpe-5",
+          "sprite": "imagenes-efectos-golpe-5"
+        },
+        {
+          "nombre": "imagenes:efectos/golpe-6",
+          "sprite": "imagenes-efectos-golpe-6"
+        }
+      ],
+      "velocidad": "15"
+    },
+    {
+      "nombre": "chispa",
+      "cuadros": [
+        {
+          "nombre": "imagenes:efectos/chispa-1",
+          "sprite": "imagenes-efectos-chispa-1"
+        },
+        {
+          "nombre": "imagenes:efectos/chispa-2",
+          "sprite": "imagenes-efectos-chispa-2"
+        },
+        {
+          "nombre": "imagenes:efectos/chispa-3",
+          "sprite": "imagenes-efectos-chispa-3"
+        },
+        {
+          "nombre": "imagenes:efectos/chispa-4",
+          "sprite": "imagenes-efectos-chispa-4"
+        },
+        {
+          "nombre": "imagenes:efectos/chispa-5",
+          "sprite": "imagenes-efectos-chispa-5"
+        }
+      ],
+      "velocidad": "20"
+    },
+    {
+      "nombre": "humo",
+      "cuadros": [
+        {
+          "nombre": "imagenes:efectos/humo-01",
+          "sprite": "imagenes-efectos-humo-01"
+        },
+        {
+          "nombre": "imagenes:efectos/humo-02",
+          "sprite": "imagenes-efectos-humo-02"
+        },
+        {
+          "nombre": "imagenes:efectos/humo-03",
+          "sprite": "imagenes-efectos-humo-03"
+        },
+        {
+          "nombre": "imagenes:efectos/humo-04",
+          "sprite": "imagenes-efectos-humo-04"
+        },
+        {
+          "nombre": "imagenes:efectos/humo-05",
+          "sprite": "imagenes-efectos-humo-05"
+        },
+        {
+          "nombre": "imagenes:efectos/humo-06",
+          "sprite": "imagenes-efectos-humo-06"
+        },
+        {
+          "nombre": "imagenes:efectos/humo-07",
+          "sprite": "imagenes-efectos-humo-07"
+        },
+        {
+          "nombre": "imagenes:efectos/humo-08",
+          "sprite": "imagenes-efectos-humo-08"
+        },
+        {
+          "nombre": "imagenes:efectos/humo-09",
+          "sprite": "imagenes-efectos-humo-09"
+        },
+        {
+          "nombre": "imagenes:efectos/humo-10",
+          "sprite": "imagenes-efectos-humo-10"
+        }
+      ],
+      "velocidad": "15"
+    },
+    {
+      "nombre": "hombre_pixel_camina",
+      "cuadros": [
+        {
+          "nombre": "imagenes:pixelados/pixel_player_1",
+          "sprite": "imagenes-pixelados-pixel_player_1"
+        },
+        {
+          "nombre": "imagenes:pixelados/pixel_player_2",
+          "sprite": "imagenes-pixelados-pixel_player_2"
+        }
+      ],
+      "velocidad": "15"
+    },
+    {
+      "nombre": "hombre_pixel_parado",
+      "cuadros": [
+        {
+          "nombre": "imagenes:pixelados/pixel_player_0",
+          "sprite": "imagenes-pixelados-pixel_player_0"
+        }
+      ],
+      "velocidad": 10
+    },
+    {
+      "nombre": "fantasma_azul_camina",
+      "cuadros": [
+        {
+          "nombre": "imagenes:pacman/fantasma_azul_0",
+          "sprite": "imagenes-pacman-fantasma_azul_0"
+        },
+        {
+          "nombre": "imagenes:pacman/fantasma_azul_1",
+          "sprite": "imagenes-pacman-fantasma_azul_1"
+        }
+      ],
+      "velocidad": "10"
+    },
+    {
+      "nombre": "fantasma_camina",
+      "cuadros": [
+        {
+          "nombre": "imagenes:pacman/fantasma_6",
+          "sprite": "imagenes-pacman-fantasma_6"
+        },
+        {
+          "nombre": "imagenes:pacman/fantasma_7",
+          "sprite": "imagenes-pacman-fantasma_7"
+        }
+      ],
+      "velocidad": "10"
+    },
+    {
+      "nombre": "moneda",
+      "cuadros": [
+        {
+          "nombre": "imagenes:monedas/moneda_0",
+          "sprite": "imagenes-monedas-moneda_0"
+        },
+        {
+          "nombre": "imagenes:monedas/moneda_1",
+          "sprite": "imagenes-monedas-moneda_1"
+        },
+        {
+          "nombre": "imagenes:monedas/moneda_2",
+          "sprite": "imagenes-monedas-moneda_2"
+        },
+        {
+          "nombre": "imagenes:monedas/moneda_3",
+          "sprite": "imagenes-monedas-moneda_3"
+        },
+        {
+          "nombre": "imagenes:monedas/moneda_4",
+          "sprite": "imagenes-monedas-moneda_4"
+        },
+        {
+          "nombre": "imagenes:monedas/moneda_5",
+          "sprite": "imagenes-monedas-moneda_5"
+        },
+        {
+          "nombre": "imagenes:monedas/moneda_6",
+          "sprite": "imagenes-monedas-moneda_6"
+        },
+        {
+          "nombre": "imagenes:monedas/moneda_7",
+          "sprite": "imagenes-monedas-moneda_7"
+        }
+      ],
+      "velocidad": "30"
+    },
+    {
+      "nombre": "pacman_come",
+      "cuadros": [
+        {
+          "nombre": "imagenes:pacman/pacman_4",
+          "sprite": "imagenes-pacman-pacman_4"
+        },
+        {
+          "nombre": "imagenes:pacman/pacman_5",
+          "sprite": "imagenes-pacman-pacman_5"
+        },
+        {
+          "nombre": "imagenes:pacman/pacman_6",
+          "sprite": "imagenes-pacman-pacman_6"
+        }
+      ],
+      "velocidad": "20"
+    },
+    {
+      "nombre": "pacman_espera",
+      "cuadros": [
+        {
+          "nombre": "imagenes:pacman/pacman_4",
+          "sprite": "imagenes-pacman-pacman_4"
+        }
+      ],
+      "velocidad": 10
+    },
+    {
+      "nombre": "nave_girando_a_la_derecha",
+      "cuadros": [
+        {
+          "nombre": "imagenes:nave/nave_derecha_1",
+          "sprite": "imagenes-nave-nave_derecha_1"
+        },
+        {
+          "nombre": "imagenes:nave/nave_derecha_2",
+          "sprite": "imagenes-nave-nave_derecha_2"
+        }
+      ],
+      "velocidad": "20"
+    },
+    {
+      "nombre": "nave_girando_a_la_izquierda",
+      "cuadros": [
+        {
+          "nombre": "imagenes:nave/nave_izquierda_1",
+          "sprite": "imagenes-nave-nave_izquierda_1"
+        },
+        {
+          "nombre": "imagenes:nave/nave_izquierda_2",
+          "sprite": "imagenes-nave-nave_izquierda_2"
+        }
+      ],
+      "velocidad": "20"
+    },
+    {
+      "nombre": "nave_avanzando",
+      "cuadros": [
+        {
+          "nombre": "imagenes:nave/nave_avanza_1",
+          "sprite": "imagenes-nave-nave_avanza_1"
+        },
+        {
+          "nombre": "imagenes:nave/nave_avanza_2",
+          "sprite": "imagenes-nave-nave_avanza_2"
+        }
+      ],
+      "velocidad": "20"
+    },
+    {
+      "nombre": "nave_en_reposo",
+      "cuadros": [
+        {
+          "nombre": "imagenes:nave/nave_reposo",
+          "sprite": "imagenes-nave-nave_reposo"
+        }
+      ],
+      "velocidad": 10
+    },
+    {
+      "nombre": "gallina_vuela",
+      "cuadros": [
+        {
+          "nombre": "imagenes:gallina/gallina_vuela_1",
+          "sprite": "imagenes-gallina-gallina_vuela_1"
+        },
+        {
+          "nombre": "imagenes:gallina/gallina_vuela_2",
+          "sprite": "imagenes-gallina-gallina_vuela_2"
+        },
+        {
+          "nombre": "imagenes:gallina/gallina_vuela_3",
+          "sprite": "imagenes-gallina-gallina_vuela_3"
+        },
+        {
+          "nombre": "imagenes:gallina/gallina_vuela_2",
+          "sprite": "imagenes-gallina-gallina_vuela_2"
+        }
+      ],
+      "velocidad": "20"
+    },
+    {
+      "nombre": "nave_avanza",
+      "cuadros": [
+        {
+          "nombre": "imagenes:nave/nave_avanza_1",
+          "sprite": "imagenes-nave-nave_avanza_1"
+        },
+        {
+          "nombre": "imagenes:nave/nave_avanza_2",
+          "sprite": "imagenes-nave-nave_avanza_2"
+        }
+      ],
+      "velocidad": 10
+    },
+    {
+      "nombre": "conejo_salta",
+      "cuadros": [
+        {
+          "nombre": "imagenes:conejo/conejo_salta",
+          "sprite": "imagenes-conejo-conejo_salta"
+        }
+      ],
+      "velocidad": 10
+    },
+    {
+      "nombre": "conejo_parado",
+      "cuadros": [
+        {
+          "nombre": "imagenes:conejo/conejo_parado1",
+          "sprite": "imagenes-conejo-conejo_parado1"
+        },
+        {
+          "nombre": "imagenes:conejo/conejo_parado2",
+          "sprite": "imagenes-conejo-conejo_parado2"
+        }
+      ],
+      "velocidad": "2"
+    },
+    {
+      "nombre": "conejo_camina",
+      "velocidad": 15,
+      "cuadros": [
+        {
+          "nombre": "imagenes:conejo/conejo_camina1",
+          "sprite": "imagenes-conejo-conejo_camina1"
+        },
+        {
+          "nombre": "imagenes:conejo/conejo_camina2",
+          "sprite": "imagenes-conejo-conejo_camina2"
+        }
+      ]
+    },
+    {
+      "nombre": "bmo_camina",
+      "velocidad": 15,
+      "cuadros": [
+        {
+          "nombre": "imagenes:bmo/bmo_camina_1",
+          "sprite": "imagenes-bmo-bmo_camina_1"
+        },
+        {
+          "nombre": "imagenes:bmo/bmo_camina_2",
+          "sprite": "imagenes-bmo-bmo_camina_2"
+        }
+      ]
+    },
+    {
+      "nombre": "bmo_escala",
+      "cuadros": [
+        {
+          "nombre": "imagenes:bmo/bmo_escala_1",
+          "sprite": "imagenes-bmo-bmo_escala_1"
+        },
+        {
+          "nombre": "imagenes:bmo/bmo_escala_2",
+          "sprite": "imagenes-bmo-bmo_escala_2"
+        }
+      ],
+      "velocidad": 10
+    },
+    {
+      "nombre": "bmo_salta",
+      "cuadros": [
+        {
+          "nombre": "imagenes:bmo/bmo_salta",
+          "sprite": "imagenes-bmo-bmo_salta"
+        }
+      ],
+      "velocidad": 10
+    },
+    {
+      "nombre": "bmo_parado",
+      "cuadros": [
+        {
+          "nombre": "imagenes:bmo/bmo_parado",
+          "sprite": "imagenes-bmo-bmo_parado"
+        }
+      ],
+      "velocidad": 10
+    }
+  ],
+  "codigos": {
+    "escenas": [
+      {
+        "nombre": "Partida",
+        "codigo": "class Partida extends Escena {\n\n  cadena_arn = null;\n  proxima_posicion = { x: -330, y: 50 };\n  aminos_correctos = null;\n  tarjetas = [];\n\n  //var cronometro = pilas.obtener_actor_por_nombre(\"cronometro\");\n  codones = [\n    //--- col U\n    { triplete: 'UUU', amino: \"Phe\", esInicio: false, esFinal: false },\n    { triplete: 'UUC', amino: \"Phe\", esInicio: false, esFinal: false },\n    { triplete: 'UUA', amino: \"Leu\", esInicio: false, esFinal: false },\n    { triplete: 'UUG', amino: \"Leu\", esInicio: false, esFinal: false },\n\n    { triplete: 'CUU', amino: \"Leu\", esInicio: false, esFinal: false },\n    { triplete: 'CUC', amino: \"Leu\", esInicio: false, esFinal: false },\n    { triplete: 'CUA', amino: \"Leu\", esInicio: false, esFinal: false },\n    { triplete: 'CUG', amino: \"Leu\", esInicio: false, esFinal: false },\n\n    { triplete: 'AUU', amino: \"Ile\", esInicio: false, esFinal: false },\n    { triplete: 'AUC', amino: \"Ile\", esInicio: false, esFinal: false },\n    { triplete: 'AUA', amino: \"Ile\", esInicio: false, esFinal: false },\n    { triplete: 'AUG', amino: \"Met\", esInicio: true, esFinal: false },\n\n    { triplete: 'GUU', amino: \"Val\", esInicio: false, esFinal: false },\n    { triplete: 'GUC', amino: \"Val\", esInicio: false, esFinal: false },\n    { triplete: 'GUA', amino: \"Val\", esInicio: false, esFinal: false },\n    { triplete: 'GUG', amino: \"Val\", esInicio: false, esFinal: false },\n\n    //--- Col C\n\n    { triplete: 'UCU', amino: \"Ser\", esInicio: false, esFinal: false },\n    { triplete: 'UCC', amino: \"Ser\", esInicio: false, esFinal: false },\n    { triplete: 'UCA', amino: \"Ser\", esInicio: false, esFinal: false },\n    { triplete: 'UCG', amino: \"Ser\", esInicio: false, esFinal: false },\n\n    { triplete: 'CCU', amino: \"Pro\", esInicio: false, esFinal: false },\n    { triplete: 'CCC', amino: \"Pro\", esInicio: false, esFinal: false },\n    { triplete: 'CCA', amino: \"Pro\", esInicio: false, esFinal: false },\n    { triplete: 'CCG', amino: \"Pro\", esInicio: false, esFinal: false },\n\n    { triplete: 'ACU', amino: \"Thr\", esInicio: false, esFinal: false },\n    { triplete: 'ACC', amino: \"Thr\", esInicio: false, esFinal: false },\n    { triplete: 'ACA', amino: \"Thr\", esInicio: false, esFinal: false },\n    { triplete: 'ACG', amino: \"Thr\", esInicio: false, esFinal: false },\n\n    { triplete: 'GCU', amino: \"Ala\", esInicio: false, esFinal: false },\n    { triplete: 'GCC', amino: \"Ala\", esInicio: false, esFinal: false },\n    { triplete: 'GCA', amino: \"Ala\", esInicio: false, esFinal: false },\n    { triplete: 'GCG', amino: \"Ala\", esInicio: false, esFinal: false },\n\n    //--- Col A\n\n    { triplete: 'UAU', amino: \"Tyr\", esInicio: false, esFinal: false },\n    { triplete: 'UAC', amino: \"Tyr\", esInicio: false, esFinal: false },\n    { triplete: 'UAA', amino: \"-\", esInicio: false, esFinal: true },\n    { triplete: 'UAG', amino: \"-\", esInicio: false, esFinal: true },\n\n    { triplete: 'CAU', amino: \"His\", esInicio: false, esFinal: false },\n    { triplete: 'CAC', amino: \"His\", esInicio: false, esFinal: false },\n    { triplete: 'CAA', amino: \"Gln\", esInicio: false, esFinal: false },\n    { triplete: 'CAG', amino: \"Gln\", esInicio: false, esFinal: false },\n\n    { triplete: 'AAU', amino: \"Asn\", esInicio: false, esFinal: false },\n    { triplete: 'AAC', amino: \"Asn\", esInicio: false, esFinal: false },\n    { triplete: 'AAA', amino: \"Lys\", esInicio: false, esFinal: false },\n    { triplete: 'AAG', amino: \"Lys\", esInicio: false, esFinal: false },\n\n    { triplete: 'GAU', amino: \"Asp\", esInicio: false, esFinal: false },\n    { triplete: 'GAC', amino: \"Asp\", esInicio: false, esFinal: false },\n    { triplete: 'GAA', amino: \"Glu\", esInicio: false, esFinal: false },\n    { triplete: 'GAG', amino: \"Glu\", esInicio: false, esFinal: false },\n\n    //--- Col G\n\n    { triplete: 'UGU', amino: \"Cys\", esInicio: false, esFinal: false },\n    { triplete: 'UGC', amino: \"Cys\", esInicio: false, esFinal: false },\n    { triplete: 'UGA', amino: \"-\", esInicio: false, esFinal: true },\n    { triplete: 'UGG', amino: \"Try\", esInicio: false, esFinal: false },\n\n    { triplete: 'CGU', amino: \"Arg\", esInicio: false, esFinal: false },\n    { triplete: 'CGC', amino: \"Arg\", esInicio: false, esFinal: false },\n    { triplete: 'CGA', amino: \"Arg\", esInicio: false, esFinal: false },\n    { triplete: 'CGG', amino: \"Arg\", esInicio: false, esFinal: false },\n\n    { triplete: 'AGU', amino: \"Ser\", esInicio: false, esFinal: false },\n    { triplete: 'AGC', amino: \"Ser\", esInicio: false, esFinal: false },\n    { triplete: 'AGA', amino: \"Arg\", esInicio: false, esFinal: false },\n    { triplete: 'AGG', amino: \"Arg\", esInicio: false, esFinal: false },\n\n    { triplete: 'GGU', amino: \"Gly\", esInicio: false, esFinal: false },\n    { triplete: 'GGC', amino: \"Gly\", esInicio: false, esFinal: false },\n    { triplete: 'GGA', amino: \"Gly\", esInicio: false, esFinal: false },\n    { triplete: 'GGG', amino: \"Gly\", esInicio: false, esFinal: false }\n  ]\n\n\n\n  iniciar() {\n    this.mostrar_info();\n    this.generar_arn();\n    this.generar_tarjetas();\n  }\n\n\n  actualizar() {\n    this.desplazamiento_del_fondo_x += 0.5;\n  }\n\n  mostrar_info() {\n    // mostrar(`Partida - ${this.proyecto.nombre_jugador}`);\n    this.pilas.obtener_actor_por_nombre('jugador').texto =\n      `${this.proyecto.nombre_jugador} - nivel: ${this.proyecto.nivel}`;\n  }\n\n  mostrar_cadena_arn() {\n    // const textoCadena = this.pilas.actores.texto();\n    const textoCadena = this.pilas.obtener_actor_por_nombre('arn');\n    textoCadena.texto = this.cadena_arn.length > 0 && this.cadena_arn.map(codon => codon.triplete).join('');;\n    // textoCadena.x = 0;\n    // textoCadena.y = -200;\n    // textoCadena.escala = 2.5;\n    textoCadena.fijo = true;\n\n  }\n\n\n\n  generar_arn() {\n\n    const codon_inicio = this.codones.filter(codon => codon.esInicio)[0];\n    const codones_fin = this.codones.filter(codon => codon.esFinal);\n    const codon_fin = codones_fin[this.pilas.azar(0, codones_fin.length)];\n    let codones_medios = []\n    const codones_permitidos = this.codones.filter(codon => !codon.esInicio && !codon.esFinal);\n    for (const index of Array(this.proyecto.nivel)) {\n      codones_medios.push(codones_permitidos[this.pilas.azar(0, codones_permitidos.length)]);\n    }\n    this.cadena_arn = [codon_inicio, ...codones_medios, codon_fin];\n    this.mostrar_cadena_arn();\n  }\n\n  generar_tarjetas() {\n\n    function desordenar_lista(lista) {\n      for (let i = lista.length - 1; i > 0; i--) {\n        const j = Math.floor(Math.random() * (i + 1));\n        [lista[i], lista[j]] = [lista[j], lista[i]];\n      }\n    }\n\n    // Lista de aminos universales que puedo traducir\n    const aminos_disponibles = Array.from(new Set(this.codones\n      .map(codon => codon.amino)\n      .filter(amino => amino !== '-')\n    ));\n    // Lista de aminos asociados al arn\n    this.aminos_correctos = this.cadena_arn\n      .map(codon => codon.amino)\n      .filter(amino => amino !== '-');\n    mostrar(`aminos_correctos`);\n    mostrar(this.aminos_correctos)\n    const listado_tarjetas = [\n      ...this.aminos_correctos\n    ];\n\n\n    for (const index of Array(this.proyecto.nivel)) {\n      //busco uno al azar de los disponibles\n      let amino_seleccionado = aminos_disponibles[this.pilas.azar(0, aminos_disponibles.length)];\n      //si ya lo tengo, busco otro\n      if (listado_tarjetas.includes(amino_seleccionado)) amino_seleccionado = aminos_disponibles[this.pilas.azar(0, aminos_disponibles.length)];\n      listado_tarjetas.push(amino_seleccionado);\n    }\n\n    desordenar_lista(listado_tarjetas);\n\n    listado_tarjetas.map((tarjeta, index) => {\n      this.crear_tarjeta_amino(tarjeta, this.proxima_posicion);\n      this.calcular_proxima_posicion(index + 1);\n    });\n  }\n\n  calcular_proxima_posicion(index) {\n    const new_x_position = (index % 7 === 0) ? -330 : -330 + index * 100;\n    const new_y_position = (index % 7 === 0) ? 50 - 100 : 50;\n    this.proxima_posicion = { x: new_x_position, y: new_y_position };\n  }\n\n  crear_tarjeta_amino(amino, posicion) {\n    mostrar(`${amino} - ${posicion.x} - ${posicion.y}`);\n    const tarjeta = this.pilas.actores.texto();\n    tarjeta.texto = amino;\n    //tarjeta.nombre = `tarjeta - ${ amino }`\n    tarjeta.etiqueta = 'tarjeta-amino';\n    tarjeta.escala = 2.5;\n    tarjeta.transparencia = 50;\n    tarjeta.x = posicion.x;\n    tarjeta.y = posicion.y;\n    // this.ultima_posicion = { x: tarjeta.x, y: tarjeta.y };\n    tarjeta.cuando_mueve = function () {\n      this.pilas.definir_cursor(\"pointer\")\n      this.transparencia = 0;\n    }\n    tarjeta.cuando_sale = function () {\n      this.pilas.definir_cursor(\"normal\")\n      this.transparencia = 50;\n    }\n    tarjeta.cuando_hace_click = function () {\n      this.transparencia = 0;\n      this.pilas.enviar_mensaje_global(\"click_tarjeta\", { amino, ref: this });\n    }\n    this.tarjetas.push(tarjeta);\n\n  }\n\n  validarPuntosObtenidos(amino, ref) {\n    const puntaje = this.pilas.obtener_actor_por_nombre('puntaje');\n    if (this.aminos_correctos.length > 0) {\n      if (this.aminos_correctos[0] === amino) {\n        this.reproducir_sonido('moneda');\n        puntaje.aumentar();\n        //elimino el primer amino que se valido\n        this.aminos_correctos.splice(0, 1);\n        this.evaluar_subir_nivel();\n      } else {\n        this.reproducir_sonido('gallina');\n        puntaje.reducir();\n        this.eliminar_tarjeta(ref);\n      }\n      mostrar(this.aminos_correctos);\n    }\n  }\n\n  evaluar_subir_nivel() {\n    if (this.aminos_correctos.length <= 0) {\n      this.proyecto.subir_nivel();\n      mostrar(this.tarjetas.map(t => t.texto));\n      //limpio tarjetas y arn en pantalla\n      this.tarjetas.map(tarjeta => tarjeta.eliminar());\n      // this.texto_cadena_arn.eliminar();\n      // this.ultima_posicion = { x: -350, y: 0 };\n      // regenero tarjetas y arn\n      this.mostrar_info();\n      this.generar_arn();\n      this.generar_tarjetas();\n    }\n  }\n\n  cuando_llega_el_mensaje_click_tarjeta(data) {\n    const { amino, ref } = data;\n    this.validarPuntosObtenidos(amino, ref);\n  }\n\n  eliminar_tarjeta(ref) {\n    ref.eliminar();\n  }\n}"
+      },
+      {
+        "nombre": "Inicio",
+        "codigo": "class Inicio extends Escena {\n\n  input_nombre = null;\n\n  iniciar() {\n    this.input_nombre = this.pilas.obtener_actor_por_nombre('ingreso_nombre');\n  }\n\n  actualizar() {\n\n  }\n\n\n  cuando_pulsa_tecla(tecla) {\n\n    if (tecla === \"backspace\") {\n      // debe borrar la letra final\n      this.input_nombre.texto = this.input_nombre.texto.slice(0, -1)\n    }\n\n    if (tecla === \"espacio\") {\n      this.input_nombre.texto += \" \";\n    }\n\n    if (tecla.length === 1) {\n      // si el texto que representa la tecla\n      // tiene un solo caracter se asume\n      // que es un digito ingreso.\n\n      // esto se hace para ignorar teclas como\n      // enter, shift etc...\n\n      this.input_nombre.texto += tecla;\n    }\n\n    // nota: para ver qué tecla se pulsó en\n    // en intérprete puedes descomentar\n    // la siguiente linea:\n    // mostrar(tecla);\n\n  }\n\n}"
+      },
+      {
+        "nombre": "Fin",
+        "codigo": "class Fin extends Escena {\n\n  iniciar() {\n    const textoMotivo = this.pilas.actores.texto();\n    textoMotivo.texto = this.proyecto.puntos_jugador_actual === 0\n      ? 'Te quedaste sin puntos!' : 'El tiempo se ha agotado!'\n\n    textoMotivo.y = 130;\n    textoMotivo.escala = 2;\n\n\n    const textoPuntos = this.pilas.actores.texto();\n    textoPuntos.texto = `Hiciste ${this.proyecto.puntos_jugador_actual} puntos`\n\n    textoPuntos.y = 90;\n    textoPuntos.escala = 2;\n\n\n\n    const puntajes = this.obtener_puntajes();\n    puntajes.map((puntaje, index) => {\n      let actPuntaje: Actor = this.pilas.actores.puntaje();\n      actPuntaje.texto = `${puntaje.nombre}: ${puntaje.puntos} pts`;\n      actPuntaje.x = 0\n      actPuntaje.y = 30 - index * 50;\n    });\n  }\n\n  actualizar() {\n\n  }\n\n  obtener_puntajes() {\n    return this.proyecto.puntajes.sort((p1, p2) =>\n      (p1.puntos > p2.puntos) ? -1\n        : (p1.puntos < p2.puntos) ? 1\n          : 0);\n  }\n}"
+      }
+    ],
+    "actores": [
+      {
+        "nombre": "puntaje",
+        "codigo": "// @ts-ignore\nclass puntaje extends ActorTextoBase {\n  puntaje: number = 0;\n\n  iniciar() {\n    this.puntaje = this.proyecto.puntos_jugador_actual;\n    this.x += 100;\n    this.animar(Tipo.rebote).mover_x(-100);\n    this.texto = `PUNTAJE: ${this.puntaje}`;\n    this.fijo = true;\n  }\n\n  aumentar(cantidad: number = 10) {\n    this.puntaje += cantidad;\n    this.proyecto.actualizar_puntaje(this.puntaje);\n    this.actualizar_texto();\n  }\n\n  reducir(cantidad: number = 5) {\n    this.puntaje -= cantidad;\n    this.proyecto.actualizar_puntaje(this.puntaje);\n    this.actualizar_texto();\n  }\n\n  actualizar_texto() {\n    this.texto = `PUNTAJE: ${this.puntaje}`;\n    if (this.puntaje === 0) {\n      this.terminar_partida();\n    }\n  }\n\n  terminar_partida() {\n    this.proyecto.terminar_partida(this);\n  }\n}\n"
+      },
+      {
+        "nombre": "start",
+        "codigo": "// @ts-ignore\nclass start extends ActorTextoBase {\n\n  cuando_hace_click() {\n    const jugador = this.pilas\n      .obtener_actor_por_nombre('ingreso_nombre').texto;\n    // mostrar(jugador);\n    if (jugador == '') {\n      this.decir('Tenes que escribir tu nombre!', 1, -65, 35);\n    }\n    else {\n      // this.decir(\"¡has hecho click!\");\n      this.realizar_animacion_de_pulsacion();\n      this.proyecto.nombre_jugador = jugador;\n      this.pilas.cambiar_escena(\"Partida\");\n    }\n  }\n\n  realizar_animacion_de_pulsacion() {\n    this.y -= 2;\n\n    this.pilas.luego(0.2, () => {\n      this.y += 2;\n    });\n  }\n\n  cuando_mueve() {\n    this.pilas.definir_cursor(\"pointer\");\n  }\n\n  cuando_sale() {\n    this.pilas.definir_cursor(\"normal\");\n  }\n}\n"
+      },
+      {
+        "nombre": "cronometro",
+        "codigo": "// @ts-ignore\nclass cronometro extends ActorTextoBase {\n  tiempo: number = 60;\n\n  iniciar() {\n    this.x += 100;\n    this.animar(Tipo.rebote).mover_x(-100);\n    this.actualizar_texto();\n    this.fijo = true;\n  }\n\n  tick(cantidad: number = 1) {\n    this.tiempo -= cantidad;\n    this.actualizar_texto();\n  }\n\n  actualizar_texto() {\n    this.texto = `TIEMPO: ${this.tiempo}`;\n    if (this.tiempo == 0) {\n      this.terminar_partida();\n    }\n  }\n\n  terminar_partida() {\n    this.proyecto.terminar_partida(this);\n  }\n\n  cada_segundo() {\n    if (this.tiempo == 0) return true;\n    this.tick();\n  }\n\n}\n"
+      },
+      {
+        "nombre": "pizarra",
+        "codigo": "// @ts-ignore\nclass pizarra extends PizarraBase {\n\n  iniciar() {\n    super.iniciar();\n    this.imagen = \"imagenes:basicos/invisible\";\n\n    this.limpiar();\n\n    this.dibujar_borde_de_rectangulo(230, 285, 160, 90, \"blanco\", 2);\n    // recuadro de ARNm\n    this.dibujar_borde_de_rectangulo(-330, -170, 660, 70, \"blanco\", 2);\n  }\n\n  actualizar() { }\n}\n"
+      },
+      {
+        "nombre": "PartidaTerminada",
+        "codigo": "// @ts-ignore\nclass PartidaTerminada extends ActorTextoBase {\n}\n"
+      },
+      {
+        "nombre": "boton_salir",
+        "codigo": "// @ts-ignore\nclass boton_salir extends ActorTextoBase {\n\n  iniciar() {\n    this.fijo = true;\n  }\n\n  cuando_hace_click() {\n    this.realizar_animacion_de_pulsacion();\n    this.proyecto.terminar_partida(this);\n  }\n\n  realizar_animacion_de_pulsacion() {\n    this.y -= 2;\n\n    this.pilas.luego(0.2, () => {\n      this.y += 2;\n    });\n  }\n\n  cuando_mueve() {\n    this.pilas.definir_cursor(\"pointer\");\n  }\n\n  cuando_sale() {\n    this.pilas.definir_cursor(\"normal\");\n  }\n}\n"
+      },
+      {
+        "nombre": "texto",
+        "codigo": "// @ts-ignore\nclass texto extends ActorTextoBase {\n}\n"
+      },
+      {
+        "nombre": "texto1",
+        "codigo": "// @ts-ignore\nclass texto1 extends ActorTextoBase {\n}\n"
+      },
+      {
+        "nombre": "texto2",
+        "codigo": "// @ts-ignore\nclass texto2 extends ActorTextoBase {\n}\n"
+      },
+      {
+        "nombre": "texto3",
+        "codigo": "// @ts-ignore\nclass texto3 extends ActorTextoBase {\n\n    \n}\n"
+      },
+      {
+        "nombre": "tu_nombre",
+        "codigo": "// @ts-ignore\nclass tu_nombre extends ActorTextoBase {\n}\n"
+      },
+      {
+        "nombre": "ingreso_nombre",
+        "codigo": "// @ts-ignore\nclass ingreso_nombre extends ActorTextoBase {\n}\n"
+      },
+      {
+        "nombre": "jugador",
+        "codigo": "// @ts-ignore\nclass jugador extends ActorTextoBase {\n}\n"
+      },
+      {
+        "nombre": "arn",
+        "codigo": "// @ts-ignore\nclass arn extends ActorTextoBase {\n}\n"
+      }
+    ],
+    "proyecto": "class Proyecto {\n\n  puntos_jugador_actual = 10;\n  nivel = 1;\n  nombre_jugador = ''\n\n  puntajes = [\n    { nombre: \"pedro\", puntos: 10 },\n    { nombre: \"maria\", puntos: 40 },\n  ];\n\n  iniciar() {\n    // this.pilas.cambiar_escena(\"Inicio\");\n    pilasengine.cambiar_escena(\"Inicio\");\n  }\n\n\n  terminar_partida(actor) {\n    if (actor.etiqueta === 'boton_salir') {\n      actor.pilas.cambiar_escena('Fin');\n    } else {\n      actor.animar().explotar();\n      actor.pilas.luego(1, () => {\n        this.puntajes =\n          actor.pilas.cambiar_escena('Fin');\n      });\n    }\n  }\n\n  subir_nivel() {\n    this.nivel += 1;\n    if (this.nivel > 5) pilasengine.cambiar_escena(\"Fin\");\n  }\n\n  actualizar_puntaje(puntaje) {\n    this.puntos_jugador_actual = puntaje;\n    this.puntajes = [\n      ...this.puntajes.filter(jugador => jugador.nombre !== this.nombre_jugador),\n      { nombre: this.nombre_jugador, puntos: puntaje }];\n  }\n\n\n\n}"
+  },
+  "escenas": [
+    {
+      "nombre": "Partida",
+      "id": 1,
+      "ancho": 800,
+      "alto": 600,
+      "camara_x": 0,
+      "camara_y": 0,
+      "gravedad_x": 0,
+      "gravedad_y": 0,
+      "fondo": "decoracion:fondos/fondo-espacio_2",
+      "actores": [
+        {
+          "x": 308.3275980729526,
+          "y": 224.63867859600822,
+          "z": -10,
+          "imagen": "imagenes:basicos/invisible",
+          "centro_x": 0.5,
+          "centro_y": 0.5,
+          "rotacion": 0,
+          "escala_x": 1,
+          "escala_y": 1,
+          "transparencia": 0,
+          "etiqueta": "puntaje",
+          "espejado": false,
+          "espejado_vertical": false,
+          "figura": "",
+          "figura_dinamica": true,
+          "figura_ancho": 100,
+          "figura_alto": 100,
+          "figura_radio": 40,
+          "figura_sin_rotacion": false,
+          "figura_rebote": 1,
+          "figura_sensor": false,
+          "es_texto": true,
+          "texto_con_borde": false,
+          "texto": "PUNTAJE: 0",
+          "fuente": "color-blanco-con-sombra-chico",
+          "id": 14589534520814358,
+          "activo": true,
+          "nombre": "puntaje",
+          "habilidades": [],
+          "sensores": [],
+          "lasers": [],
+          "color": "bg-yellow"
+        },
+        {
+          "x": 309.72838273190666,
+          "y": 259.87611837577424,
+          "z": -10,
+          "imagen": "imagenes:basicos/invisible",
+          "centro_x": 0.5,
+          "centro_y": 0.5,
+          "rotacion": 0,
+          "escala_x": 1,
+          "escala_y": 1,
+          "transparencia": 0,
+          "etiqueta": "cronometro",
+          "espejado": false,
+          "espejado_vertical": false,
+          "figura": "",
+          "figura_dinamica": true,
+          "figura_ancho": 100,
+          "figura_alto": 100,
+          "figura_radio": 40,
+          "figura_sin_rotacion": false,
+          "figura_rebote": 1,
+          "figura_sensor": false,
+          "es_texto": true,
+          "texto_con_borde": false,
+          "texto": "TIEMPO: 60",
+          "fuente": "color-blanco-con-sombra-chico",
+          "id": 18744658068099536,
+          "activo": true,
+          "nombre": "cronometro",
+          "habilidades": [],
+          "sensores": [],
+          "lasers": []
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "imagen": "imagenes:basicos/sin_imagen",
+          "centro_x": 0.5,
+          "centro_y": 0.5,
+          "rotacion": 0,
+          "escala_x": 1,
+          "escala_y": 1,
+          "transparencia": 0,
+          "etiqueta": "actor",
+          "espejado": false,
+          "espejado_vertical": false,
+          "figura": "",
+          "figura_dinamica": true,
+          "figura_ancho": 100,
+          "figura_alto": 100,
+          "figura_radio": 40,
+          "figura_sin_rotacion": false,
+          "figura_rebote": 1,
+          "figura_sensor": false,
+          "es_texto": false,
+          "texto_con_borde": false,
+          "id": 10289952490216000,
+          "activo": true,
+          "nombre": "pizarra",
+          "habilidades": [],
+          "sensores": [],
+          "lasers": []
+        },
+        {
+          "x": -369.0383111806096,
+          "y": 265.2071931196246,
+          "z": -10,
+          "imagen": "imagenes:basicos/invisible",
+          "centro_x": 0.5,
+          "centro_y": 0.5,
+          "rotacion": 0,
+          "escala_x": 0.8,
+          "escala_y": 0.8,
+          "transparencia": 0,
+          "etiqueta": "boton_salir",
+          "espejado": false,
+          "espejado_vertical": false,
+          "figura": "",
+          "figura_dinamica": true,
+          "figura_ancho": 100,
+          "figura_alto": 100,
+          "figura_radio": 40,
+          "figura_sin_rotacion": false,
+          "figura_rebote": 1,
+          "figura_sensor": false,
+          "es_texto": true,
+          "texto_con_borde": false,
+          "fondo": "imagenes:redimensionables/boton-amarillo",
+          "texto": "X",
+          "color": "black",
+          "fuente": "color-negro",
+          "id": 18115557569549176,
+          "activo": true,
+          "nombre": "boton_salir",
+          "habilidades": [],
+          "sensores": [],
+          "lasers": []
+        },
+        {
+          "x": 0,
+          "y": 254.1387024608501,
+          "z": -10,
+          "imagen": "imagenes:basicos/invisible",
+          "centro_x": 0.5,
+          "centro_y": 0.5,
+          "rotacion": 0,
+          "escala_x": 1.2,
+          "escala_y": 1.2,
+          "transparencia": 0,
+          "etiqueta": "actor",
+          "espejado": false,
+          "espejado_vertical": false,
+          "figura": "",
+          "figura_dinamica": true,
+          "figura_ancho": 100,
+          "figura_alto": 100,
+          "figura_radio": 40,
+          "figura_sin_rotacion": false,
+          "figura_rebote": 1,
+          "figura_sensor": false,
+          "es_texto": true,
+          "texto_con_borde": false,
+          "texto": "jugador",
+          "fuente": "color-blanco-con-sombra",
+          "id": 10136404454575640,
+          "activo": true,
+          "nombre": "jugador",
+          "habilidades": [],
+          "sensores": [],
+          "lasers": []
+        },
+        {
+          "x": 0,
+          "y": -200,
+          "z": -10,
+          "imagen": "imagenes:basicos/invisible",
+          "centro_x": 0.5,
+          "centro_y": 0.5,
+          "rotacion": 0,
+          "escala_x": 2.5,
+          "escala_y": 2.5,
+          "transparencia": 0,
+          "etiqueta": "arn",
+          "espejado": false,
+          "espejado_vertical": false,
+          "figura": "",
+          "figura_dinamica": true,
+          "figura_ancho": 100,
+          "figura_alto": 100,
+          "figura_radio": 40,
+          "figura_sin_rotacion": false,
+          "figura_rebote": 1,
+          "figura_sensor": false,
+          "es_texto": true,
+          "texto_con_borde": false,
+          "texto": "",
+          "fuente": "color-blanco-con-sombra",
+          "id": 18888174245371852,
+          "activo": true,
+          "nombre": "arn",
+          "habilidades": [],
+          "sensores": [],
+          "lasers": []
+        }
+      ],
+      "carpetas": []
+    },
+    {
+      "id": 17124640570725538,
+      "nombre": "Inicio",
+      "ancho": 800,
+      "alto": 600,
+      "camara_x": 0,
+      "camara_y": 0,
+      "gravedad_x": 0,
+      "gravedad_y": 1,
+      "fondo": "decoracion:fondos/fondo-plano",
+      "actores": [
+        {
+          "x": 0,
+          "y": -161.04088895149727,
+          "z": 0,
+          "imagen": "imagenes:basicos/invisible",
+          "centro_x": 0.5,
+          "centro_y": 0.5,
+          "rotacion": 0,
+          "escala_x": 1.5,
+          "escala_y": 1.5,
+          "transparencia": 10,
+          "etiqueta": "actor",
+          "espejado": false,
+          "espejado_vertical": false,
+          "figura": "",
+          "figura_dinamica": true,
+          "figura_ancho": 100,
+          "figura_alto": 100,
+          "figura_radio": 40,
+          "figura_sin_rotacion": false,
+          "figura_rebote": 1,
+          "figura_sensor": false,
+          "es_texto": true,
+          "texto_con_borde": false,
+          "fondo": "imagenes:redimensionables/boton-amarillo",
+          "texto": "Iniciar",
+          "color": "black",
+          "fuente": "color-negro",
+          "id": 17085723387739472,
+          "activo": true,
+          "nombre": "start",
+          "habilidades": [],
+          "sensores": [],
+          "lasers": []
+        },
+        {
+          "x": 0,
+          "y": 225.95749440715883,
+          "z": -10,
+          "imagen": "imagenes:basicos/invisible",
+          "centro_x": 0.5,
+          "centro_y": 0.5,
+          "rotacion": 0,
+          "escala_x": 1,
+          "escala_y": 1,
+          "transparencia": 0,
+          "etiqueta": "actor",
+          "espejado": false,
+          "espejado_vertical": false,
+          "figura": "",
+          "figura_dinamica": true,
+          "figura_ancho": 100,
+          "figura_alto": 100,
+          "figura_radio": 40,
+          "figura_sin_rotacion": false,
+          "figura_rebote": 1,
+          "figura_sensor": false,
+          "es_texto": true,
+          "texto_con_borde": false,
+          "texto": "El objetivo de este juego es que practiques el proceso de traduccion de ARNm a proteinas.",
+          "fuente": "color-blanco-con-sombra",
+          "id": 15937372097267628,
+          "activo": true,
+          "nombre": "texto",
+          "habilidades": [],
+          "sensores": [],
+          "lasers": []
+        },
+        {
+          "x": 0,
+          "y": 182.15127335661023,
+          "z": -10,
+          "imagen": "imagenes:basicos/invisible",
+          "centro_x": 0.5,
+          "centro_y": 0.5,
+          "rotacion": 0,
+          "escala_x": 1,
+          "escala_y": 1,
+          "transparencia": 0,
+          "etiqueta": "actor",
+          "espejado": false,
+          "espejado_vertical": false,
+          "figura": "",
+          "figura_dinamica": true,
+          "figura_ancho": 100,
+          "figura_alto": 100,
+          "figura_radio": 40,
+          "figura_sin_rotacion": false,
+          "figura_rebote": 1,
+          "figura_sensor": false,
+          "es_texto": true,
+          "texto_con_borde": false,
+          "texto": "Cada traduccion correcta suma 10 puntos, pero ojo! si fallas restas 5.",
+          "fuente": "color-blanco-con-sombra",
+          "id": 11884694904913336,
+          "activo": true,
+          "nombre": "texto1",
+          "habilidades": [],
+          "sensores": [],
+          "lasers": []
+        },
+        {
+          "x": 0,
+          "y": 138.8099238971117,
+          "z": -10,
+          "imagen": "imagenes:basicos/invisible",
+          "centro_x": 0.5,
+          "centro_y": 0.5,
+          "rotacion": 0,
+          "escala_x": 1,
+          "escala_y": 1,
+          "transparencia": 0,
+          "etiqueta": "actor",
+          "espejado": false,
+          "espejado_vertical": false,
+          "figura": "",
+          "figura_dinamica": true,
+          "figura_ancho": 100,
+          "figura_alto": 100,
+          "figura_radio": 40,
+          "figura_sin_rotacion": false,
+          "figura_rebote": 1,
+          "figura_sensor": false,
+          "es_texto": true,
+          "texto_con_borde": false,
+          "texto": "TIP: Tene cuidado con el orden!",
+          "fuente": "color-blanco-con-sombra",
+          "id": 18849071586914000,
+          "activo": true,
+          "nombre": "texto2",
+          "habilidades": [],
+          "sensores": [],
+          "lasers": []
+        },
+        {
+          "x": 0,
+          "y": 96.11185682326618,
+          "z": -10,
+          "imagen": "imagenes:basicos/invisible",
+          "centro_x": 0.5,
+          "centro_y": 0.5,
+          "rotacion": 0,
+          "escala_x": 1,
+          "escala_y": 1,
+          "transparencia": 0,
+          "etiqueta": "actor",
+          "espejado": false,
+          "espejado_vertical": false,
+          "figura": "",
+          "figura_dinamica": true,
+          "figura_ancho": 100,
+          "figura_alto": 100,
+          "figura_radio": 40,
+          "figura_sin_rotacion": false,
+          "figura_rebote": 1,
+          "figura_sensor": false,
+          "es_texto": true,
+          "texto_con_borde": false,
+          "texto": "Otra ayuda: Para arrancar te regalamos 10 puntos",
+          "fuente": "color-blanco-con-sombra",
+          "id": 14391481423608308,
+          "activo": true,
+          "nombre": "texto3",
+          "habilidades": [],
+          "sensores": [],
+          "lasers": []
+        },
+        {
+          "x": 0,
+          "y": 15.52348993288581,
+          "z": -10,
+          "imagen": "imagenes:basicos/invisible",
+          "centro_x": 0.5,
+          "centro_y": 0.5,
+          "rotacion": 0,
+          "escala_x": 1.5,
+          "escala_y": 1.5,
+          "transparencia": 0,
+          "etiqueta": "actor",
+          "espejado": false,
+          "espejado_vertical": false,
+          "figura": "",
+          "figura_dinamica": true,
+          "figura_ancho": 100,
+          "figura_alto": 100,
+          "figura_radio": 40,
+          "figura_sin_rotacion": false,
+          "figura_rebote": 1,
+          "figura_sensor": false,
+          "es_texto": true,
+          "texto_con_borde": false,
+          "texto": "Ingresa tu nombre:",
+          "fuente": "color-blanco-con-sombra",
+          "id": 13099932780598676,
+          "activo": true,
+          "nombre": "tu_nombre",
+          "habilidades": [],
+          "sensores": [],
+          "lasers": []
+        },
+        {
+          "x": -0.13422818791946156,
+          "y": -24.163310961968932,
+          "z": -10,
+          "imagen": "imagenes:basicos/invisible",
+          "centro_x": 0.5,
+          "centro_y": 0.5,
+          "rotacion": 0,
+          "escala_x": 1.5,
+          "escala_y": 1.5,
+          "transparencia": 0,
+          "etiqueta": "actor",
+          "espejado": false,
+          "espejado_vertical": false,
+          "figura": "",
+          "figura_dinamica": true,
+          "figura_ancho": 100,
+          "figura_alto": 100,
+          "figura_radio": 40,
+          "figura_sin_rotacion": false,
+          "figura_rebote": 1,
+          "figura_sensor": false,
+          "es_texto": true,
+          "texto_con_borde": false,
+          "texto": "",
+          "fuente": "color-blanco-con-sombra",
+          "id": 10847809628553312,
+          "activo": true,
+          "nombre": "ingreso_nombre",
+          "habilidades": [],
+          "sensores": [],
+          "lasers": []
+        }
+      ]
+    },
+    {
+      "id": 14471975743188170,
+      "nombre": "Fin",
+      "ancho": 800,
+      "alto": 600,
+      "camara_x": 0,
+      "camara_y": 0,
+      "gravedad_x": 0,
+      "gravedad_y": 1,
+      "fondo": "decoracion:fondos/fondo-plano",
+      "actores": [
+        {
+          "x": 0,
+          "y": 230,
+          "z": -10,
+          "imagen": "imagenes:basicos/invisible",
+          "centro_x": 0.5,
+          "centro_y": 0.5,
+          "rotacion": 0,
+          "escala_x": 3,
+          "escala_y": 3,
+          "transparencia": 0,
+          "etiqueta": "texto",
+          "espejado": false,
+          "espejado_vertical": false,
+          "figura": "",
+          "figura_dinamica": true,
+          "figura_ancho": 100,
+          "figura_alto": 100,
+          "figura_radio": 40,
+          "figura_sin_rotacion": false,
+          "figura_rebote": 1,
+          "figura_sensor": false,
+          "es_texto": true,
+          "texto_con_borde": false,
+          "texto": "Partida terminada",
+          "fuente": "color-blanco-con-sombra",
+          "id": 16899264214329746,
+          "activo": true,
+          "nombre": "PartidaTerminada",
+          "habilidades": [],
+          "sensores": [],
+          "lasers": []
+        }
+      ]
+    }
+  ],
+  "fps": 30,
+  "modo_de_video": "suavizado",
+  "sonidos": [
+    {
+      "nombre": "laser",
+      "ruta": "sonidos/laser.mp3"
+    },
+    {
+      "nombre": "explosion",
+      "ruta": "sonidos/explosion.mp3"
+    },
+    {
+      "nombre": "gallina",
+      "ruta": "sonidos/gallina.mp3"
+    },
+    {
+      "nombre": "moneda",
+      "ruta": "sonidos/moneda.mp3"
+    },
+    {
+      "nombre": "salto-corto",
+      "ruta": "sonidos/salto-corto.mp3"
+    },
+    {
+      "nombre": "salto-largo",
+      "ruta": "sonidos/salto-largo.mp3"
+    },
+    {
+      "nombre": "seleccion-aguda",
+      "ruta": "sonidos/seleccion-aguda.mp3"
+    },
+    {
+      "nombre": "seleccion-grave",
+      "ruta": "sonidos/seleccion-grave.mp3"
+    },
+    {
+      "nombre": "comer",
+      "ruta": "sonidos/comer.mp3"
+    }
+  ],
+  "bloques": {
+    "proyecto": {
+      "texto": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"ZC`*TK^}PI+^~52^ak!H\" x=\"35\" y=\"44\"></block></xml>",
+      "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('ZC`*TK^}PI+^~52^ak!H', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n"
+    },
+    "escenas": [
+      {
+        "nombre": "Partida",
+        "bloques": {
+          "texto": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"escena_al_iniciar\" id=\"ms2+If6B9Dl^C;YsS/{x\" x=\"-225\" y=\"-202\"></block><block type=\"escena_cuando_hace_click\" id=\"=UY{}h^MjrUa!2]Q!d*C\" x=\"-224\" y=\"-111\"></block><block type=\"escena_al_actualizar\" id=\"3oE27p+:PzlhcbX-XBVe\" x=\"-221\" y=\"-18\"></block></xml>",
+          "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('ms2+If6B9Dl^C;YsS/{x', this.id);\n}\nescena._bloques_al_iniciar = function(x, y, evento) {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('=UY{}h^MjrUa!2]Q!d*C', this.id);\n}\nescena._bloques_cuando_hace_click = function(x, y, evento) {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('3oE27p+:PzlhcbX-XBVe', this.id);\n}\nescena._bloques_al_actualizar = function() {\n\n  };"
+        }
+      },
+      {
+        "nombre": "Inicio",
+        "bloques": {
+          "texto": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"escena_al_iniciar\" id=\"ms2+If6B9Dl^C;YsS/{x\" x=\"-225\" y=\"-202\"></block><block type=\"escena_cuando_hace_click\" id=\"=UY{}h^MjrUa!2]Q!d*C\" x=\"-224\" y=\"-111\"></block><block type=\"escena_al_actualizar\" id=\"3oE27p+:PzlhcbX-XBVe\" x=\"-221\" y=\"-18\"></block></xml>",
+          "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('ms2+If6B9Dl^C;YsS/{x', this.id);\n}\nescena._bloques_al_iniciar = function(x, y, evento) {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('=UY{}h^MjrUa!2]Q!d*C', this.id);\n}\nescena._bloques_cuando_hace_click = function(x, y, evento) {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('3oE27p+:PzlhcbX-XBVe', this.id);\n}\nescena._bloques_al_actualizar = function() {\n\n  };"
+        }
+      },
+      {
+        "nombre": "Fin",
+        "bloques": {
+          "texto": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"escena_al_iniciar\" id=\"ms2+If6B9Dl^C;YsS/{x\" x=\"-225\" y=\"-202\"></block><block type=\"escena_cuando_hace_click\" id=\"=UY{}h^MjrUa!2]Q!d*C\" x=\"-224\" y=\"-111\"></block><block type=\"escena_al_actualizar\" id=\"3oE27p+:PzlhcbX-XBVe\" x=\"-221\" y=\"-18\"></block></xml>",
+          "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('ms2+If6B9Dl^C;YsS/{x', this.id);\n}\nescena._bloques_al_iniciar = function(x, y, evento) {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('=UY{}h^MjrUa!2]Q!d*C', this.id);\n}\nescena._bloques_cuando_hace_click = function(x, y, evento) {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('3oE27p+:PzlhcbX-XBVe', this.id);\n}\nescena._bloques_al_actualizar = function() {\n\n  };"
+        }
+      },
+      {
+        "nombre": "escena",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"escena_al_iniciar\" id=\"ms2+If6B9Dl^C;YsS/{x\" x=\"-225\" y=\"-202\"></block><block type=\"escena_cuando_hace_click\" id=\"=UY{}h^MjrUa!2]Q!d*C\" x=\"-224\" y=\"-111\"></block><block type=\"escena_al_actualizar\" id=\"3oE27p+:PzlhcbX-XBVe\" x=\"-221\" y=\"-18\"></block></xml>"
+      }
+    ],
+    "actores": [
+      {
+        "nombre": "puntaje",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "actor",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "Tiempo",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "start",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "cronometro",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "pizarra",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "ARNm",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "pizarra",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>"
+      },
+      {
+        "nombre": "PartidaTerminada",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "ingresa_tu_nombre",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "pizarra1",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "boton_salir",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "actor1",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "boton",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "texto",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "texto1",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "texto2",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "texto3",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "texto3",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>"
+      },
+      {
+        "nombre": "tu_nombre",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "texto5",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "jugador",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "ingreso_nombre",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "arn",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>",
+        "codigo_de_bloques": "if (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('^BS9[_V!D30$Klp?G]Nt', this.id);\n}\nactor._bloques_iniciar = function() {\n\n  };\n\nif (this.id) {\n\tthis.pilas.notificar_ejecucion_del_bloque('D[i2{g4SjDY+sAT7f=W@', this.id);\n}\nactor._bloques_actualizar = function() {\n\n  };\n"
+      },
+      {
+        "nombre": "texto4",
+        "bloques": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"actor_inicia\" id=\"^BS9[_V!D30$Klp?G]Nt\" x=\"-217\" y=\"-205\"></block><block type=\"actor_actualizar\" id=\"D[i2{g4SjDY+sAT7f=W@\" x=\"-212\" y=\"-36\"></block></xml>"
+      }
+    ]
+  },
+  "plegados": {
+    "proyecto": {
+      "cursorState": [
+        {
+          "inSelectionMode": false,
+          "selectionStart": {
+            "lineNumber": 25,
+            "column": 57
+          },
+          "position": {
+            "lineNumber": 25,
+            "column": 57
+          }
+        }
+      ],
+      "viewState": {
+        "scrollLeft": 0,
+        "firstPosition": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "firstPositionDeltaTop": 0
+      },
+      "contributionsState": {
+        "editor.contrib.folding": {
+          "lineCount": 31,
+          "provider": "indent"
+        },
+        "editor.contrib.wordHighlighter": false
+      }
+    }
+  },
+  "etiquetas": []
+}
