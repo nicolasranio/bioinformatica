@@ -15,7 +15,13 @@ Etapa 2→ permite seleccionar las tarjetas y suma/resta puntos. El juego termin
 
 Etapa 3 → Pedir nombre al inicio del juego y mostrar pantalla con resultados al final.
 
-  
+
+### TODOs, bugs detectados
+
+    Hay algunos puntos del plan original que no se llegaron a concretar, en su mayor medida por limitacion/falta de documentacion de pilas engine.
+    
+    - El juego no persiste resultados en db/disco (no hay info al respecto en la web de pilas).
+    - En ciertas ocasiones se presenta un bug donde las tarjetas de aminoacidos se solapan.
 
 ## Instalacion
 
